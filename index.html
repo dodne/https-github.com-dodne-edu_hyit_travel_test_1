@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현대아이티(Hyundai IT) - 대한민국 No.1 스마트 디스플레이 & 스마트보드 솔루션</title>
+    <meta name="description" content="구글 EDLA 공식 인증 4K UHD 현대아이티 스마트보드 3.0, 올인원 AI 화상회의 솔루션, IP66 아웃도어 사이니지 및 비디오월 라인업 소개.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Header Navigation -->
+    <header id="main-header">
+        <div class="header-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-hyundai">HYUNDAI</span>
+                <span class="logo-it">IT</span>
+                <span class="logo-badge">KOREA</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#hero" class="nav-item active">홈</a>
+                <a href="#simulator" class="nav-item">스마트보드 체험관</a>
+                <a href="#products" class="nav-item">제품 라인업</a>
+                <a href="#tech" class="nav-item">핵심 기술</a>
+                <a href="#calculator" class="nav-item">맞춤 견적 계산기</a>
+                <a href="#references" class="nav-item">도입 사례</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle-btn" id="themeToggleBtn" title="화면 테마 변경">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="cta-btn secondary-btn open-modal-btn" data-modal="demoModal">
+                    <i class="fa-solid fa-chalkboard-user"></i> 방문 시연 신청
+                </button>
+                <button class="cta-btn primary-btn open-modal-btn" data-modal="inquiryModal">
+                    <i class="fa-solid fa-paper-plane"></i> 견적 문의
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="메뉴 열기">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay">
+        <div class="mobile-nav-content">
+            <button class="mobile-nav-close" id="mobileNavClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="mobile-brand">HYUNDAI <span>IT</span></div>
+            <a href="#hero" class="mobile-nav-link">홈</a>
+            <a href="#simulator" class="mobile-nav-link">스마트보드 체험관</a>
+            <a href="#products" class="mobile-nav-link">제품 라인업</a>
+            <a href="#tech" class="mobile-nav-link">핵심 기술</a>
+            <a href="#calculator" class="mobile-nav-link">맞춤 견적 계산기</a>
+            <a href="#references" class="mobile-nav-link">도입 사례</a>
+            <div class="mobile-actions">
+                <button class="cta-btn primary-btn full-width open-modal-btn" data-modal="inquiryModal">견적 및 시연 신청</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-container">
+            <div class="hero-text-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-shield-halved"></i> 구글 EDLA 공식 인증 · 대한민국 스마트 디스플레이 No.1
+                </div>
+                <h1 class="hero-title">
+                    스마트한 협업의 새로운 기준,<br>
+                    <span class="gradient-text">현대아이티 스마트보드 3.0</span>
+                </h1>
+                <p class="hero-subtitle">
+                    생생한 4K UHD IPS 디스플레이, 10ms 초고속 필기감, 올인원 AI 화상회의 시스템과 독자적 아웃도어 사이니지 기술로 미래형 업무 및 교육 환경을 완성합니다.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#simulator" class="cta-btn primary-btn lg">
+                        <i class="fa-solid fa-pen-nib"></i> 스마트보드 실시간 판서 체험
+                    </a>
+                    <a href="#calculator" class="cta-btn outline-btn lg">
+                        <i class="fa-solid fa-calculator"></i> 1분 맞춤 견적 계산기
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="15000">15,000+</div>
+                        <div class="stat-label">기업·공공·학교 도입</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="99.4">99.4%</div>
+                        <div class="stat-label">고객 서비스 만족도</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-num">IP66 / 3500nits</div>
+                        <div class="stat-label">아웃도어 최고등급 기술</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual-container">
+                <div class="product-stage">
+                    <div class="glass-card hero-image-wrapper">
+                        <img src="images/smartboard_hero.jpg" alt="현대아이티 4K 스마트보드 3.0" class="hero-product-img">
+                        <div class="image-overlay-glow"></div>
+                        
+                        <!-- Floating Tech Tags -->
+                        <div class="tech-tag tag-top-right floating-anim">
+                            <i class="fa-brands fa-google"></i> Google EDLA 인증
+                        </div>
+                        <div class="tech-tag tag-bottom-left floating-anim-delay">
+                            <i class="fa-solid fa-video"></i> 1300만 화소 AI 카메라
+                        </div>
+                        <div class="tech-tag tag-center-right floating-anim">
+                            <i class="fa-solid fa-hand-pointer"></i> 10ms Zero-Bonding 터치
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Whiteboard Simulator Section -->
+    <section id="simulator" class="simulator-section">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> LIVE INTERACTIVE DEMO</span>
+                <h2 class="section-title">현대아이티 <span class="gradient-text">미팅메이트 판서 시뮬레이터</span></h2>
+                <p class="section-desc">실제 스마트보드 3.0 화면의 판서 기술, AI 서클 검색, 화면 분할(Dual Window) 기능을 웹상에서 직접 체험해보세요.</p>
+            </div>
+
+            <div class="simulator-wrapper glass-card">
+                <!-- Whiteboard Header / Status Bar -->
+                <div class="simulator-top-bar">
+                    <div class="sim-brand">
+                        <span class="sim-dot red"></span>
+                        <span class="sim-dot yellow"></span>
+                        <span class="sim-dot green"></span>
+                        <span class="sim-title">HYUNDAI MeetingMate 3.0 | 4K UHD Interactive Slate</span>
+                    </div>
+                    <div class="sim-mode-toggles">
+                        <button class="sim-toggle-btn active" id="btnModeSingle"><i class="fa-solid fa-desktop"></i> 단일 화면</button>
+                        <button class="sim-toggle-btn" id="btnModeDual"><i class="fa-solid fa-columns"></i> 듀얼 분할 모드</button>
+                    </div>
+                </div>
+
+                <!-- Main Work Area -->
+                <div class="simulator-body" id="simulatorBody">
+                    <!-- Left Split Window (Shown in Dual Mode) -->
+                    <div class="dual-left-panel" id="dualLeftPanel">
+                        <div class="panel-header">
+                            <i class="fa-solid fa-file-pdf"></i> 스마트 회의 자료 (2026_Hyundai_Smartboard_Spec.pdf)
+                        </div>
+                        <div class="panel-content">
+                            <div class="doc-mockup">
+                                <h3>HYUNDAI IT ALPHA 3.0 SPECIFICATIONS</h3>
+                                <p><strong>• Display:</strong> 75" / 86" / 98" 4K Direct LED (3840 x 2160)</p>
+                                <p><strong>• Touch Technology:</strong> High-Precision IR Zero Bonding (20 Points)</p>
+                                <p><strong>• OS:</strong> Android 15 + Windows 11 Pro Dual OS</p>
+                                <p><strong>• AI Integration:</strong> 8-Array Beamforming Microphones + Auto Frame Camera</p>
+                                <div class="doc-chart-placeholder">
+                                    <div class="chart-bar" style="height: 60%;">2023</div>
+                                    <div class="chart-bar" style="height: 80%;">2024</div>
+                                    <div class="chart-bar active" style="height: 100%;">2026 (Modern)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Canvas Interactive Area -->
+                    <div class="canvas-container" id="canvasContainer">
+                        <canvas id="whiteboardCanvas" width="1200" height="650"></canvas>
+                        
+                        <!-- AI Popup Overlay (Simulated) -->
+                        <div class="ai-popup" id="aiPopup">
+                            <div class="ai-popup-header">
+                                <i class="fa-solid fa-sparkles"></i> 현대아이티 AI 서클 검색 결과
+                                <button class="ai-close-btn" id="aiPopupClose"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+                            <div class="ai-popup-body">
+                                <div class="ai-result-icon"><i class="fa-solid fa-brain"></i></div>
+                                <div class="ai-result-text">
+                                    <h4>[AI 요약 & 스마트 검색 완료]</h4>
+                                    <p>선택하신 드로잉 영역 분석: <strong>"스마트보드 3.0 핵심 기능 요약"</strong></p>
+                                    <ul>
+                                        <li>✔ 구글 Play 스토어 순정 애플리케이션 직접 설치 지원</li>
+                                        <li>✔ 미팅메이트 9채널 동시 무선 화면 공유 기능 활성화</li>
+                                        <li>✔ 회의록 자동 생성 및 클라우드(Google Drive/OneDrive) 즉시 저장</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Whiteboard Floating Toolbar -->
+                <div class="simulator-toolbar">
+                    <div class="tool-group">
+                        <label class="tool-label">도구</label>
+                        <button class="tool-btn active" id="toolPen" title="펜 드로잉"><i class="fa-solid fa-pen"></i></button>
+                        <button class="tool-btn" id="toolHighlighter" title="형광펜"><i class="fa-solid fa-highlighter"></i></button>
+                        <button class="tool-btn" id="toolEraser" title="지우개"><i class="fa-solid fa-eraser"></i></button>
+                        <button class="tool-btn" id="toolShape" title="도형 그리기"><i class="fa-solid fa-shapes"></i></button>
+                    </div>
+
+                    <div class="tool-divider"></div>
+
+                    <div class="tool-group">
+                        <label class="tool-label">색상</label>
+                        <div class="color-palette">
+                            <span class="color-dot active" data-color="#00D2FF" style="background: #00D2FF;" title="시안 네온"></span>
+                            <span class="color-dot" data-color="#FFFFFF" style="background: #FFFFFF;" title="화이트"></span>
+                            <span class="color-dot" data-color="#FF3366" style="background: #FF3366;" title="네온 레드"></span>
+                            <span class="color-dot" data-color="#FFCC00" style="background: #FFCC00;" title="옐로우"></span>
+                            <span class="color-dot" data-color="#00FF88" style="background: #00FF88;" title="그린"></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-divider"></div>
+
+                    <div class="tool-group">
+                        <label class="tool-label">두께</label>
+                        <input type="range" id="penWidth" min="2" max="24" value="4" class="range-slider">
+                    </div>
+
+                    <div class="tool-divider"></div>
+
+                    <div class="tool-group ai-tools">
+                        <label class="tool-label">AI 스마트기능</label>
+                        <button class="tool-btn ai-btn" id="btnAiSearch" title="영역 선택 서클 검색"><i class="fa-solid fa-circle-nodes"></i> 서클 검색</button>
+                        <button class="tool-btn ai-btn" id="btnAiSummary" title="회의록 자동 요약"><i class="fa-solid fa-robot"></i> Ask AI 요약</button>
+                    </div>
+
+                    <div class="tool-divider"></div>
+
+                    <div class="tool-group">
+                        <button class="tool-btn danger" id="btnClearCanvas" title="화면 전체 지우기"><i class="fa-solid fa-trash-can"></i> 전체 지우기</button>
+                        <button class="tool-btn success" id="btnSaveCanvas" title="판서 화면 저장"><i class="fa-solid fa-download"></i> PNG 저장</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Lineup Section -->
+    <section id="products" class="products-section">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag"><i class="fa-solid fa-layer-group"></i> PRODUCT LINEUP</span>
+                <h2 class="section-title">현대아이티 <span class="gradient-text">프리미엄 디스플레이 라인업</span></h2>
+                <p class="section-desc">비즈니스 회의실, 스마트 교실, 야외 공간 및 미디어월까지 최적의 라인업을 확인해보세요.</p>
+            </div>
+
+            <!-- Product Filter Tabs -->
+            <div class="product-tabs">
+                <button class="tab-btn active" data-filter="all">전체 제품</button>
+                <button class="tab-btn" data-filter="smartboard">스마트보드 3.0</button>
+                <button class="tab-btn" data-filter="outdoor">아웃도어 사이니지</button>
+                <button class="tab-btn" data-filter="videowall">실내 비디오월</button>
+                <button class="tab-btn" data-filter="software">미팅메이트 SW</button>
+            </div>
+
+            <!-- Product Grid Cards -->
+            <div class="product-grid" id="productGrid">
+                
+                <!-- Product 1 -->
+                <div class="product-card glass-card" data-category="smartboard">
+                    <div class="card-badge">인기 No.1</div>
+                    <div class="card-img-box">
+                        <img src="images/smartboard_hero.jpg" alt="현대 스마트보드 Alpha 3.0">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">구글 EDLA 인증 스마트보드</span>
+                        <h3 class="card-title">현대 스마트보드 Alpha 3.0 (IX-Series)</h3>
+                        <p class="card-desc">4K UHD IPS 패널, Android 15 기반, 구글 스토어 순정 지원, 13MP AI 화상회의 카메라 내장 올인원 칠판.</p>
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-check"></i> 규격: 65인치 / 75인치 / 86인치 / 98인치</li>
+                            <li><i class="fa-solid fa-check"></i> 터치: 10ms Zero-Bonding 20포인트 멀티터치</li>
+                            <li><i class="fa-solid fa-check"></i> 음향: 8-Array 빌트인 마이크 (최대 8m 감지)</li>
+                        </ul>
+                        <div class="card-footer">
+                            <button class="btn-card-detail view-spec-btn" data-product="alpha3">상세 스펙 보기</button>
+                            <button class="btn-card-quote open-modal-btn" data-modal="inquiryModal" data-preset="Alpha 3.0">견적 문의</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card glass-card" data-category="outdoor">
+                    <div class="card-badge highlight">최고 고휘도</div>
+                    <div class="card-img-box">
+                        <img src="images/outdoor_signage.jpg" alt="현대 아웃도어 사이니지">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">아웃도어 고휘도 사이니지</span>
+                        <h3 class="card-title">아웃도어 버스 쉘터 사이니지 (H-Series)</h3>
+                        <p class="card-desc">3,500 nits 초고휘도, 직사광선 아래에서도 압도적 시인성, IP66 등급 완벽 방수방진 기술 적용.</p>
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-check"></i> 휘도: 2,500 ~ 3,500 nits 자동 밝기 조절</li>
+                            <li><i class="fa-solid fa-check"></i> 내환경성: IP66 등급 / -30℃~50℃ 특수 온도제어</li>
+                            <li><i class="fa-solid fa-check"></i> 유리: 6mm IK10 파손방지 강화유리</li>
+                        </ul>
+                        <div class="card-footer">
+                            <button class="btn-card-detail view-spec-btn" data-product="outdoorH">상세 스펙 보기</button>
+                            <button class="btn-card-quote open-modal-btn" data-modal="inquiryModal" data-preset="Outdoor H-Series">견적 문의</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card glass-card" data-category="videowall">
+                    <div class="card-badge">초슬림 베젤</div>
+                    <div class="card-img-box">
+                        <img src="images/videowall_indoor.jpg" alt="현대 실내 비디오월">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">실내용 상업 디스플레이</span>
+                        <h3 class="card-title">초슬림 베젤 비디오월 (VW-Series)</h3>
+                        <p class="card-desc">0.88mm 극초슬림 베젤 심리스 디자인, 24시간 365일 연속 가동 안정성 및 광시야각 색감 구현.</p>
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-check"></i> 베젤: 0.88mm / 1.8mm Extreme Bezel</li>
+                            <li><i class="fa-solid fa-check"></i> 내구성: 24/7 산업용 grade 패널</li>
+                            <li><i class="fa-solid fa-check"></i> 제어: 원격 CMS 멀티 스크린 제어 솔루션</li>
+                        </ul>
+                        <div class="card-footer">
+                            <button class="btn-card-detail view-spec-btn" data-product="videowallVW">상세 스펙 보기</button>
+                            <button class="btn-card-quote open-modal-btn" data-modal="inquiryModal" data-preset="VideoWall VW">견적 문의</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card glass-card" data-category="software">
+                    <div class="card-badge">전용 판서 SW</div>
+                    <div class="card-img-box sw-icon-box">
+                        <i class="fa-solid fa-laptop-code sw-icon"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">스마트 협업 소프트웨어</span>
+                        <h3 class="card-title">현대 미팅메이트 (MeetingMate 3.0)</h3>
+                        <p class="card-desc">문서, 이미지, 동영상 위에 실시간 자유 판서, 9채널 무선 미러링 및 클라우드 즉시 공유 패키지.</p>
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-check"></i> 미러링: iOS, Android, Windows, Mac 9화면 공유</li>
+                            <li><i class="fa-solid fa-check"></i> 회의록: QR코드 전송 & 클라우드 동기화</li>
+                            <li><i class="fa-solid fa-check"></i> 보안: 기업용 보안 패스코드 및 데이터 암호화</li>
+                        </ul>
+                        <div class="card-footer">
+                            <button class="btn-card-detail view-spec-btn" data-product="meetingmate">상세 스펙 보기</button>
+                            <button class="btn-card-quote open-modal-btn" data-modal="inquiryModal" data-preset="MeetingMate 3.0">견적 문의</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Core Section -->
+    <section id="tech" class="tech-section">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag"><i class="fa-solid fa-microchip"></i> INNOVATIVE TECHNOLOGY</span>
+                <h2 class="section-title">현대아이티만의 <span class="gradient-text">독자적 디스플레이 핵심 기술</span></h2>
+                <p class="section-desc">차원 높은 독자 기술력으로 어떤 사용 환경에서도 완벽한 퍼포먼스를 약속합니다.</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-card glass-card">
+                    <div class="tech-icon-box"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3>Zero-Bonding & 4K Anti-Glare</h3>
+                    <p>유리와 패널 사이의 공기층을 완벽히 제거한 Zero-Bonding 공법으로 터치 오차를 0에 가깝게 줄이고 눈부심 없는 4K 화질을 선사합니다.</p>
+                </div>
+
+                <div class="tech-card glass-card">
+                    <div class="tech-icon-box"><i class="fa-brands fa-google"></i></div>
+                    <h3>Google EDLA 순정 인프라</h3>
+                    <p>구글 공식 라이선스를 획득하여 구글 워크스페이스, 드라이브, 크롬, 플레이 스토어를 호환성 문제없이 완벽하게 실행합니다.</p>
+                </div>
+
+                <div class="tech-card glass-card">
+                    <div class="tech-icon-box"><i class="fa-solid fa-video"></i></div>
+                    <h3>AI 스마트 화상회의 시스템</h3>
+                    <p>발언자를 자동으로 추적하는 1300만 화소 AI 카메라와 8m 노이즈 캔슬링 8-Array 마이크로 완벽한 하이브리드 미팅 환경 구축.</p>
+                </div>
+
+                <div class="tech-card glass-card">
+                    <div class="tech-icon-box"><i class="fa-solid fa-sun"></i></div>
+                    <h3>IP66 & 3,500nits 아웃도어 기술</h3>
+                    <p>특허받은 공기 순환 온도 제어 시스템으로 비, 눈, 먼지, 직사광선이 쏟아지는 극단적 야외에서도 24시간 선명함을 유지합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI & Spec Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag"><i class="fa-solid fa-sliders"></i> CUSTOM FIT CALCULATOR</span>
+                <h2 class="section-title">스마트 디스플레이 <span class="gradient-text">맞춤 추천 & 견적 계산기</span></h2>
+                <p class="section-desc">설치 장소와 용도, 참석 인원수를 선택하시면 최적의 현대아이티 모델과 가상 견적 요약을 산출해드립니다.</p>
+            </div>
+
+            <div class="calc-wrapper glass-card">
+                <div class="calc-form">
+                    <!-- Step 1 -->
+                    <div class="calc-step">
+                        <label class="step-label"><span class="step-num">Step 1</span> 설치 공간의 유형을 선택하세요</label>
+                        <div class="option-grid" id="optSpace">
+                            <button class="opt-btn active" data-val="office"><i class="fa-solid fa-building"></i> 기업 회의실</button>
+                            <button class="opt-btn" data-val="school"><i class="fa-solid fa-graduation-cap"></i> 학교 · 학원 교실</button>
+                            <button class="opt-btn" data-val="outdoor"><i class="fa-solid fa-city"></i> 야외 · 아웃도어 공간</button>
+                            <button class="opt-btn" data-val="lobby"><i class="fa-solid fa-hotel"></i> 로비 · 매장 쇼룸</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="calc-step">
+                        <label class="step-label"><span class="step-num">Step 2</span> 메인 사용 목적을 선택하세요</label>
+                        <div class="option-grid" id="optPurpose">
+                            <button class="opt-btn active" data-val="meeting"><i class="fa-solid fa-comments"></i> 화상회의 및 스마트 협업</button>
+                            <button class="opt-btn" data-val="lecture"><i class="fa-solid fa-chalkboard"></i> 전자칠판 판서 및 교육</button>
+                            <button class="opt-btn" data-val="ads"><i class="fa-solid fa-rectangle-ad"></i> 홍보 및 광고 정보 제공</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="calc-step">
+                        <label class="step-label"><span class="step-num">Step 3</span> 권장 화면 수용 규모 / 인원</label>
+                        <div class="option-grid" id="optCapacity">
+                            <button class="opt-btn active" data-val="small">소형 (1~10명 이하 / 65인치 권장)</button>
+                            <button class="opt-btn" data-val="medium">중형 (10~25명 / 75~86인치 권장)</button>
+                            <button class="opt-btn" data-val="large">대형 (25명 이상 / 98인치 이상 또는 비디오월)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calculator Result Card -->
+                <div class="calc-result-box" id="calcResultBox">
+                    <div class="result-header">
+                        <i class="fa-solid fa-award"></i> 맞춤 추천 모델 결과
+                    </div>
+                    <div class="result-body">
+                        <h3 class="rec-model-name" id="recModelName">현대 스마트보드 Alpha 3.0 75인치 (IX-75)</h3>
+                        <div class="rec-price-range" id="recPriceRange">예상 가격대: 전문 상담 후 최저가 견적 제시</div>
+                        
+                        <ul class="rec-features" id="recFeatures">
+                            <li><i class="fa-solid fa-circle-check"></i> 구글 EDLA 공식 인증 (Google Workspace 연동)</li>
+                            <li><i class="fa-solid fa-circle-check"></i> 미팅메이트 3.0 판서 SW 기본 제공</li>
+                            <li><i class="fa-solid fa-circle-check"></i> 13MP AI 카메라 & 8-Array 마이크 포함</li>
+                            <li><i class="fa-solid fa-circle-check"></i> 무상 방문 A/S 패키지 포함</li>
+                        </ul>
+
+                        <div class="result-actions">
+                            <button class="cta-btn primary-btn full-width open-modal-btn" data-modal="inquiryModal" id="btnApplyRec">
+                                <i class="fa-solid fa-file-signature"></i> 이 구성으로 공식 견적서 요청하기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section id="references" class="references-section">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag"><i class="fa-solid fa-handshake"></i> TRUSTED BY LEADERS</span>
+                <h2 class="section-title">전국 주요 기업 및 기관이 선택한 <span class="gradient-text">현대아이티</span></h2>
+                <p class="section-desc">공공기관, 대기업, 대학교 및 초·중·고등학교에서 입증된 신뢰의 디스플레이 솔루션입니다.</p>
+            </div>
+
+            <!-- Reference Logos Ticker -->
+            <div class="reference-logos-wrapper glass-card">
+                <div class="logo-grid">
+                    <div class="ref-badge"><i class="fa-solid fa-building-columns"></i> 대한민국 국방부 · 행정안전부</div>
+                    <div class="ref-badge"><i class="fa-solid fa-school"></i> 서울대학교 · 연세대학교 · 고려대학교</div>
+                    <div class="ref-badge"><i class="fa-solid fa-briefcase"></i> 삼성전자 · 현대자동차 · LG그룹</div>
+                    <div class="ref-badge"><i class="fa-solid fa-landmark"></i> 전국 시·도 교육청 스마트교실</div>
+                </div>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="quote-text">"구글 EDLA 인증 스마트보드 덕분에 구글 클래스룸과 워크스페이스 자료를 수업 중에 딜레이 없이 바로 띄우고 판서할 수 있어 교육 효율이 혁신적으로 높아졌습니다."</p>
+                    <div class="reviewer-info">
+                        <strong>K대학교 스마트교육센터 교수</strong>
+                        <span>스마트보드 86인치 24대 도입</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="quote-text">"야외 버스정류장 아웃도어 사이니지 도입 후 강렬한 여름 직사광선 아래에서도 화면이 매우 선명하게 보여 시민들의 반응과 만족도가 매우 뛰어납니다."</p>
+                    <div class="reviewer-info">
+                        <strong>S시 스마트도시운영과 팀장</strong>
+                        <span>IP66 3500nits 아웃도어 50대 설치</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="quote-text">"별도의 화상회의 카메라나 마이크 장비 설정 없이 현대 스마트보드 하나로 임원 회의실 하이브리드 미팅이 완벽히 해결되었습니다. 추천합니다."</p>
+                    <div class="reviewer-info">
+                        <strong>H그룹 경영지원실 이사</strong>
+                        <span>Alpha 3.0 98인치 및 미팅메이트 도입</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <span class="logo-hyundai">HYUNDAI</span>
+                        <span class="logo-it">IT</span>
+                    </div>
+                    <p class="footer-brand-desc">현대아이티는 독자적인 디스플레이 기술력과 신뢰를 바탕으로 세계 최고의 스마트보드 및 사이니지 디스플레이 솔루션을 제공합니다.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4>제품 소개</h4>
+                        <a href="#products">스마트보드 3.0 (Alpha)</a>
+                        <a href="#products">아웃도어 사이니지</a>
+                        <a href="#products">실내 비디오월</a>
+                        <a href="#products">미팅메이트 SW</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>고객 지원</h4>
+                        <a href="#calculator">맞춤 견적 산출</a>
+                        <a href="#simulator">실시간 판서 체험</a>
+                        <a href="#" class="open-modal-btn" data-modal="demoModal">시연 신청 안내</a>
+                        <a href="#">제품 카탈로그 다운로드</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>대표 상담 센터</h4>
+                        <div class="cs-phone">1588-0000</div>
+                        <p class="cs-hours">평일 09:00 ~ 18:00 (주말/공휴일 휴무)</p>
+                        <p class="cs-email">contact@hyundait.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HYUNDAI IT Co., Ltd. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">개인정보처리방침</a> | <a href="#">이용약관</a> | <a href="#">이메일무단수집거부</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal 1: Inquiry & Quote Request Modal -->
+    <div class="modal-overlay" id="inquiryModal">
+        <div class="modal-card glass-card">
+            <button class="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-paper-plane"></i> 현대아이티 제품 견적 & 상담 문의</h3>
+                <p>문의글을 남겨주시면 전담 CX 매니저가 2시간 이내에 친절히 상담해드립니다.</p>
+            </div>
+            <form class="modal-form" id="inquiryForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>성함 / 담당자명 *</label>
+                        <input type="text" id="inqName" required placeholder="홍길동 팀장">
+                    </div>
+                    <div class="form-group">
+                        <label>회사 / 기관명 *</label>
+                        <input type="text" id="inqCompany" required placeholder="(주)현대기업 또는 OO초등학교">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>연락처 *</label>
+                        <input type="tel" id="inqPhone" required placeholder="010-1234-5678">
+                    </div>
+                    <div class="form-group">
+                        <label>이메일 *</label>
+                        <input type="email" id="inqEmail" required placeholder="example@company.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>관심 제품 선택</label>
+                    <select id="inqProductSelect">
+                        <option value="Alpha 3.0">현대 스마트보드 Alpha 3.0 (EDLA 4K)</option>
+                        <option value="Outdoor H-Series">아웃도어 고휘도 사이니지 (IP66 3500nits)</option>
+                        <option value="VideoWall VW">초슬림 실내 비디오월 (0.88mm)</option>
+                        <option value="MeetingMate SW">미팅메이트 3.0 소프트웨어</option>
+                        <option value="Custom Fit">맞춤 견적 상담</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>문의 내용 및 요청사항</label>
+                    <textarea id="inqMessage" rows="4" placeholder="설치 장소, 수량, 희망 일정 등 상세 문의 내용을 입력해주세요."></textarea>
+                </div>
+                <button type="submit" class="cta-btn primary-btn full-width lg">
+                    <i class="fa-solid fa-paper-plane"></i> 견적 문의 신청하기
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal 2: Product Spec Modal -->
+    <div class="modal-overlay" id="specModal">
+        <div class="modal-card glass-card spec-modal-card">
+            <button class="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3 id="specModalTitle">제품 상세 스펙</h3>
+                <span class="spec-modal-tag" id="specModalTag">현대아이티 공식 카탈로그</span>
+            </div>
+            <div class="modal-body" id="specModalBody">
+                <!-- Dynamically populated via JS -->
+            </div>
+            <div class="modal-footer">
+                <button class="cta-btn primary-btn open-modal-btn" data-modal="inquiryModal" id="specModalQuoteBtn">이 제품 견적 문의하기</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Demonstration Request Modal -->
+    <div class="modal-overlay" id="demoModal">
+        <div class="modal-card glass-card">
+            <button class="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-chalkboard-user"></i> 무료 찾아가는 제품 시연 신청</h3>
+                <p>현대아이티 전문가가 시연용 스마트보드 장비를 가지고 고객님의 사업장/학교에 직접 찾아갑니다.</p>
+            </div>
+            <form class="modal-form" id="demoForm">
+                <div class="form-group">
+                    <label>회사 / 학교 / 기관명 *</label>
+                    <input type="text" required placeholder="OO초등학교 / OO기업">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>담당자명 *</label>
+                        <input type="text" required placeholder="김철수 수석">
+                    </div>
+                    <div class="form-group">
+                        <label>연락처 *</label>
+                        <input type="tel" required placeholder="010-0000-0000">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>방문 설치 지역 *</label>
+                    <input type="text" required placeholder="서울특별시 강남구 ...">
+                </div>
+                <div class="form-group">
+                    <label>희망 시연 희망일</label>
+                    <input type="date" id="demoDate">
+                </div>
+                <button type="submit" class="cta-btn primary-btn full-width lg">
+                    <i class="fa-solid fa-calendar-check"></i> 무료 시연 신청 완료
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification" id="toast">
+        <i class="fa-solid fa-circle-check"></i> <span id="toastMsg">성공적으로 처리되었습니다.</span>
+    </div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
