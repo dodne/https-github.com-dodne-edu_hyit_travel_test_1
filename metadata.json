@@ -1,0 +1,6 @@
+{
+  "name": "Vibrant Odyssey",
+  "description": "실시간 교통정보, 일정 및 가격/시간 비교를 지원하는 반응형 다크모드 여행 탐색 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
